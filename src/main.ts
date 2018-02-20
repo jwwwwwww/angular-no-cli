@@ -1,4 +1,8 @@
-import { platformBrowserDynamic } from '@angular/platform-browser-dynamic';
-import { AppModule } from './app/app.module';
+import "core-js/client/shim.min"
+import "systemjs/dist/system.src"
+import "zone.js/dist/zone"
 
-platformBrowserDynamic().bootstrapModule(AppModule);
+import { platformBrowserDynamic } from "@angular/platform-browser-dynamic"
+import { AppModule } from "./app/app.module"
+
+platformBrowserDynamic().bootstrapModule(AppModule)

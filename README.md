@@ -1,14 +1,12 @@
+### Angular Seed
 
-Angular seed
-============
 This is basic Angular setup with the minimum required dependencies
 
-Running the app
----------------
+### Running
 
 ```
-npm i
+npm install -g parcel-bundler
+npm install
 npm start
+open http://localhost:1234
 ```
-
-Open a browser and navigate to http://localhost:3000/

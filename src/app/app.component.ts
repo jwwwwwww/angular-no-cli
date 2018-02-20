@@ -1,12 +1,12 @@
-import {Component, VERSION} from '@angular/core';
+import { Component, VERSION } from "@angular/core"
 
 @Component({
-    selector: 'my-app',
+    selector: "my-app",
     template: `
         <h1>Hello {{name}}</h1>
     `,
-    styles: ['']
+    styles: []
 })
 export class AppComponent {
-    name = `Angular! v${VERSION.full}`
+    private name = `Angular! v${VERSION.full}`
 }
